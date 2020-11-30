@@ -1,43 +1,41 @@
 package com.example.primefaces.view;
 
-import java.io.Serializable;
-import java.util.List;
+import com.example.primefaces.model.car.Car;
+import com.example.primefaces.model.user.MyUserDetails;
+import com.example.primefaces.repository.CarRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ViewScoped;
 import javax.inject.Named;
-
-import com.example.primefaces.model.Car;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import com.example.primefaces.repository.CarRepository;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
+import java.io.Serializable;
+import java.util.List;
 
 @Named
 @ViewScoped
 public class CarsView implements Serializable {
 
-  private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-  @Autowired
-  private CarRepository carRepository;
+	@Autowired
+	private CarRepository carRepository;
 
-  private List<Car> cars;
+	private List<Car> cars;
 
-  private String user;
+	private String user;
 
-  @PostConstruct
-  public void init() {
-    cars = carRepository.findAll();
-  }
+	@PostConstruct
+	public void init() {
+		cars = carRepository.findAll();
+	}
 
-  public String getUser() {
-    User asd = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-    return asd.getUsername();
-  }
+	public String getUser() {
+		MyUserDetails asd = (MyUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+		return asd.getUsername();
+	}
 
-  public List<Car> getCars() {
-    return cars;
-  }
+	public List<Car> getCars() {
+		return cars;
+	}
 }

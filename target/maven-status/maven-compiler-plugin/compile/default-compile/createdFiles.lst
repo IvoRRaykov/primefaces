@@ -1,5 +1,10 @@
-com\codenotfound\primefaces\model\Car.class
-com\codenotfound\primefaces\SpringPrimeFacesApplication.class
-com\codenotfound\primefaces\view\CarsView.class
-com\codenotfound\primefaces\view\WelcomePageRedirect.class
-com\codenotfound\primefaces\repository\CarRepository.class
+com\example\primefaces\model\car\Car.class
+com\example\primefaces\repository\CarRepository.class
+com\example\primefaces\view\controller\WelcomePageRedirect.class
+com\example\primefaces\view\CarsView.class
+com\example\primefaces\config\SecurityConfig.class
+com\example\primefaces\service\UserDetailsServiceImpl.class
+com\example\primefaces\repository\UserRepository.class
+com\example\primefaces\model\user\MyUserDetails.class
+com\example\primefaces\Application.class
+com\example\primefaces\model\user\User.class

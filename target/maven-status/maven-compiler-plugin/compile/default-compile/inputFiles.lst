@@ -1,5 +1,10 @@
-C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\codenotfound\primefaces\model\Car.java
-C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\codenotfound\primefaces\repository\CarRepository.java
-C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\codenotfound\primefaces\view\WelcomePageRedirect.java
-C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\codenotfound\primefaces\SpringPrimeFacesApplication.java
-C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\codenotfound\primefaces\view\CarsView.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\Application.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\view\controller\WelcomePageRedirect.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\config\SecurityConfig.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\model\user\User.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\repository\UserRepository.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\model\car\Car.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\service\UserDetailsServiceImpl.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\view\CarsView.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\repository\CarRepository.java
+C:\git\jsf-primefaces-master\jsf-primefaces-datatable-mysql\src\main\java\com\example\primefaces\model\user\MyUserDetails.java
