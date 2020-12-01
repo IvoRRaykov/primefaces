@@ -1,0 +1,14 @@
+{
+  "data": {
+    "statuses": [
+      {
+        "id": 2,
+        "name": "Ende"
+      },
+      {
+        "id": 3,
+        "name": "Start"
+      }
+    ]
+  }
+}

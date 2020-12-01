@@ -1,0 +1,14 @@
+{
+  "data": {
+    "clusters": [
+      {
+        "id": 1,
+        "name": "Allgemein"
+      },
+      {
+        "id": 5,
+        "name": "Bild, Ton"
+      }
+    ]
+  }
+}

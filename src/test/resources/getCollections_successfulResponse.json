@@ -1,0 +1,20 @@
+{
+  "data": {
+    "collections": [
+      {
+        "id": 1,
+        "title": "Internet!",
+        "services": [
+          "Internet"
+        ],
+        "status": "Start"
+      }
+    ]
+  },
+  "meta": {
+    "page": 0,
+    "elementsPerPage": 50,
+    "totalPages": 13,
+    "totalElements": 633
+  }
+}

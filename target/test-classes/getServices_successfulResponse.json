@@ -1,0 +1,14 @@
+{
+  "data": {
+    "services": [
+      {
+        "id": 1,
+        "name": "Telefonie"
+      },
+      {
+        "id": 2,
+        "name": "Internet"
+      }
+    ]
+  }
+}

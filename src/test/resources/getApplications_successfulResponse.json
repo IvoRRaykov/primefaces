@@ -1,0 +1,14 @@
+{
+  "data": {
+    "applications": [
+      {
+        "id": 1,
+        "name": "Allgemein"
+      },
+      {
+        "id": 3,
+        "name": "COMBOX®"
+      }
+    ]
+  }
+}

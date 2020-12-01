@@ -3,6 +3,7 @@ package com.example.primefaces.view;
 import com.example.primefaces.model.car.Car;
 import com.example.primefaces.model.user.MyUserDetails;
 import com.example.primefaces.repository.CarRepository;
+import com.example.primefaces.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 
@@ -21,13 +22,16 @@ public class CarsView implements Serializable {
 	@Autowired
 	private CarRepository carRepository;
 
+	@Autowired
+	private CarService carService;
+
 	private List<Car> cars;
 
 	private String user;
 
 	@PostConstruct
 	public void init() {
-		cars = carRepository.findAll();
+		cars = carService.findMishelinCarsOnly();
 	}
 
 	public String getUser() {

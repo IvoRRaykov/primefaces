@@ -1,0 +1,14 @@
+{
+  "data": {
+    "collectionTypes": [
+      {
+        "id": 2,
+        "name": "Wartung"
+      },
+      {
+        "id": 1,
+        "name": "Störung"
+      }
+    ]
+  }
+}

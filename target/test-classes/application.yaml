@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: oce-soe-comhub-templates
+  jackson:
+    default-property-inclusion: non_null
+
+spring.jpa.hibernate.ddl-auto: none
+spring.datasource.continue-on-error: true
+spring.datasource.url: ${vcap.services.db-mysql-multincprod.credentials.uri:jdbc:mysql://root@${MYSQL_HOST:localhost}:3306/multincprod}
+
+spring.jpa.properties.hibernate.dialect:  org.hibernate.dialect.MySQL57Dialect
+application:
+  defaults:
+    records-per-page: 50
+  openapi:
+    info:
+      version: test
+      title: Comhub Templates MiSe API

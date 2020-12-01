@@ -1,0 +1,22 @@
+{
+  "data": {
+    "templates": [
+      {
+        "id": 1,
+        "templateIdentifier": "SIT",
+        "en": "The Internet is currently experiencing an outage in parts of the %Stadtname% region. Telephony and Swisscom TV are not affected. It is yet  unknown how long this will last. We recommend that our customers do not make any configuration changes to their Internet settings at the moment. We apologise for any inconvenience caused. Swisscom",
+        "de": "Aktuell treten Störungen auf bei unserem Internet-Service in Teilen der Region %Stadtname%. Die Festnetz-Telefonie und Swisscom TV sind nicht betroffen. Unsere Techniker arbeiten daran, die Störungen zu beheben. Wir raten unseren Kunden derzeit davon ab, eigenhändig Konfigurationsänderungen an ihren Interneteinstellungen vorzunehmen. Wir entschuldigen uns für die Unannehmlichkeiten. Swisscom",
+        "it": "Al momento ci sono guasti con il servizio di internet in alcune zone nella regione %Stadtname% è interessato da un guasto. Le telefonate e il servizio Swisscom TV non sono interessati dal problema. I nostri tecnici stanno lavorando per eliminare il guasto. Sconsigliamo ai nostri clienti di apportare personalmente delle modifiche nella configurazione delle proprie impostazioni Internet. Ci scusiamo per i disagi causati. Swisscom",
+        "fr": "Des dérangements surviennent actuellement avec notre service Internet dans des zones de la région %Stadtname%. La téléphonie et le service Swisscom TV ne sont pas concernés. Nos techniciens travaillent à la suppression du dérangement. C'est pourquoi nous déconseillons à nos clients de procéder à une modification manuelle de leurs paramètres Internet. Nous nous excusons pour les désagréments occasionnés. Swisscom"
+      },
+      {
+        "id": 2,
+        "templateIdentifier": "IVR",
+        "en": "Please note. <break time=\"0.5s\"/> Our Internet service is experiencing problems in some regions of %Stadtname%. <break time=\"0.5s\"/> Our technicians are working on resolving the problem. We are unable to say how long it will take. Please do <emphasis>not</emphasis> change any of your Internet settings. We apologise for any inconvenience. <break time=\"3s\"/>",
+        "de": "Ein kurzer Hinweis. <break time=\"0.5s\"/> Unser Internetservice ist in Teilen der Region %Stadtname% von einer Störung betroffen. Bitte nehmen Sie <emphasis>keine</emphasis> Änderungen an Ihren Interneteinstellungen vor. Unsere Techniker arbeiten an der Lösung. Zur Dauer der Störung können wir noch nichts sagen. Wir entschuldigen uns für die Umstände. <break time=\"3s\"/> ",
+        "it": "Una breve nota. <break time=\"0.5s\"/> Il nostro servizio Internet, in alcune zone nella regione %Stadtname%, è interessato da un guasto. <break time=\"0.5s\"/> I nostri tecnici stanno lavorando per risolvere il problema.  Non siamo ancora in grado di dire nulla, in merito alla durata del guasto. Ci scusiamo per i disagi causati. <break time=\"3s\"/>",
+        "fr": "Brève information. <break time=\"0.5s\"/>  Notre service Internet est perturbé dans certaines zones de la région de %Stadtname%. <break time=\"0.3s\"/> Merci de n'apporter <emphasis>aucune</emphasis> modification, à vos paramètres Internet. <break time=\"0.5s\"/> Nos techniciens s'efforcent de trouver une solution. Nous ne pouvons pas encore nous prononcer sur la durée du dérangement. Veuillez nous excuser pour la gêne occasionnée. <break time=\"3s\"/>"
+      }
+    ]
+  }
+}
