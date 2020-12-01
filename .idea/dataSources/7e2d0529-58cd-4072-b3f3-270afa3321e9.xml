@@ -955,7 +955,7 @@ SELECT|sys.sys_config:null
     </column>
     <column id="295" parent="285" name="tyreId">
       <Position>2</Position>
-      <DataType>int|0s</DataType>
+      <DataType>bigint|0s</DataType>
     </column>
     <column id="296" parent="285" name="carId">
       <Position>3</Position>
@@ -1015,7 +1015,7 @@ SELECT|sys.sys_config:null
     </key>
     <column id="308" parent="288" name="id">
       <Position>1</Position>
-      <DataType>int|0s</DataType>
+      <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
